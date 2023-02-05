@@ -11,6 +11,7 @@
   "dependencies": {
     "@animxyz/core": "^0.6.6",
     "@animxyz/react": "^0.6.6",
+    "@auth0/auth0-react": "^2.0.0",
     "@babel/core": "^7.0.0",
     "@egjs/react-flicking": "^4.7.2",
     "@emotion/react": "^11.9.3",

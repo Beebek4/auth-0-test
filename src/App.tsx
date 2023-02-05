@@ -2,6 +2,7 @@ import React from 'react';
 import { XyzTransitionGroup } from '@animxyz/react';
 
 import '@/index.css';
+import LoginButton from './Loginbutton';
 
 const App = () => {
   const [count, setCount] = React.useState(0);
@@ -24,15 +25,7 @@ const App = () => {
         <div className="flex justify-center m-5">
           <button className="text-2xl m-auto w-full bg-slate-200 hover:bg-slate-300 p-5 rounded-2xl flex" onClick={() => increment()}>
             <div className="flex-initial">
-              Click Count:
-            </div>
-            <XyzTransitionGroup xyz="fade down-100% back-2" duration={150} className="flex-1">
-              {showCount && (
-              <div>
-                {count}
-              </div>
-              )}
-            </XyzTransitionGroup>
+            <LoginButton/>
           </button>
         </div>
         <div className="m-5 text-left">
